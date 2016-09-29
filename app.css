@@ -4,6 +4,9 @@ body {
 
 * {
   box-sizing: border-box;
+  /*padding: 1rem;
+  border: 0.5rem black solid;
+  margin: 0.5rem;*/
 }
 
 ul {
