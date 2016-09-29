@@ -90,3 +90,41 @@ ul {
   font-weight: bold;
   font-size: 1rem;
 }
+
+.main__container {
+  max-width: 65%;
+  margin: 4rem auto 0;
+}
+
+.main__content {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-article {
+  padding-right: 1.5rem;
+}
+
+.article-info {
+  position: relative;
+  bottom: 3rem;
+}
+
+.article-heading {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.ad-photo {
+  max-width: 100%;
+}
+
+.author-profile img {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 3.5rem;
+}
