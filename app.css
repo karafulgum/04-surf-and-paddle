@@ -34,11 +34,12 @@ ul {
   justify-content: space-between;
   align-items: center;
   overflow: auto;
-  color: #000000;
+  color: #212121;
 }
 
 .top-nav p {
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .top-nav a {
@@ -77,13 +78,15 @@ ul {
 
 .hero__title {
   font-size: 5rem;
+  text-transform: uppercase;
 }
 
 .hero__subtitle {
   position: relative;
   bottom: 4.5rem;
-  right: 1rem;
+  left: 3rem;
 
-  color: #000000;
+  color: #212121;
   font-weight: bold;
+  font-size: 1rem;
 }
