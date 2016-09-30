@@ -104,8 +104,8 @@ ul {
 }
 
 .main__container {
-  max-width: 70%;
-  min-width: 50%;
+  max-width: 50rem;
+  min-width: 30rem;
   margin: 4rem auto 0;
 }
 
