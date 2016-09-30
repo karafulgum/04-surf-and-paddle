@@ -1,6 +1,6 @@
 body {
   margin: 0;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 * {
@@ -104,7 +104,7 @@ ul {
 }
 
 .main__container {
-  max-width: 65%;
+  max-width: 70%;
   margin: 4rem auto 0;
 }
 
@@ -116,7 +116,7 @@ ul {
 }
 
 .left-article {
-  padding-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .article-info {
@@ -149,17 +149,37 @@ ul {
 }
 
 .author-info p {
+  margin-left: 0.2rem;
   color: #517ee3;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
+.post-info {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 3.5rem;
+}
+
 .publish-date {
+  display: flex;
+  position: relative;
+  top: 0.2rem;
   color: #bdbdbd;
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
 }
 
 .date {
+  margin-left: 0.2rem;
   text-decoration: underline;
+}
+
+.main-article {
+  position: relative;
+  bottom: 3.5rem;
 }
 
 .main-text__link-grey {
@@ -168,6 +188,24 @@ ul {
 
 .main-text__link-blue {
   color: #0277bd;
+}
+
+.btn {
+  position: relative;
+  bottom: 3rem;
+}
+
+.btn-1 {
+  color: white;
+  background-color: #e0e0e0;
+}
+
+.fa-comment {
+  color: white;
+}
+
+.grey {
+    background-color: #424242;
 }
 
 .ad-photo {
