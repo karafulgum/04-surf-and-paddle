@@ -105,6 +105,7 @@ ul {
 
 .main__container {
   max-width: 70%;
+  min-width: 50%;
   margin: 4rem auto 0;
 }
 
@@ -208,13 +209,59 @@ ul {
     background-color: #424242;
 }
 
+.author-profile img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  height: 3.5rem;
+}
+
+.author-name {
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 1rem;
+  width: 8rem;
+  margin: 1rem auto;
+}
+
+.socials__item a {
+  font-size: 0.6rem;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
 .ad-photo {
   max-width: 100%;
 }
 
-.author-profile img {
+.ad-link {
   display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 3.5rem;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+  color: #bdbdbd;
+}
+
+.article-2 {
+  margin-top: 2rem;
+}
+
+.article-2-heading {
+    color: #517ee3;
+    font-family: "Fjalla One", sans-serif;
+    text-transform: uppercase;
+}
+
+.article-2-text {
+    color: #bdbdbd;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0.5rem;
 }
