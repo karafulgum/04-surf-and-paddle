@@ -48,7 +48,7 @@ ul {
   vertical-align: middle;
 }
 
-.top-nav__logo {
+.top-nav__logo, .top-nav__logo p {
   margin: 0;
 }
 
