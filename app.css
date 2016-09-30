@@ -1,5 +1,6 @@
 body {
   margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 * {
@@ -23,8 +24,6 @@ ul {
   padding: 1rem 2rem;
   background: url('images/water.jpeg') no-repeat center center fixed;
   background-size: cover;
-
-  font-family: 'Raleway', sans-serif;
 }
 
 .top-nav {
@@ -61,10 +60,23 @@ ul {
 .top-nav__links {
   display: flex;
   margin: 0 -0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
 }
 
 .top-nav__item {
   margin: 0 0.5rem;
+}
+
+.top-nav__item:hover{
+  color: white;
+}
+
+.fa-search {
+  position: relative;
+  left: 0.2rem;
+  bottom: 0.2rem;
 }
 
 .hero__title-container {
@@ -108,14 +120,54 @@ ul {
 }
 
 .article-info {
-  position: relative;
-  bottom: 3rem;
+  /*position: relative;
+  bottom: 3rem;*/
 }
 
 .article-heading {
+  color: #073573;
   font-family: "Fjalla One", sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
+}
+
+.quote {
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left: 1px solid #bdbdbd;
+  padding: 0.75rem 0.5rem;
+  margin: 0 0.3rem;
+}
+
+.author-info img {
+  border-radius: 50%;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.author-info p {
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+}
+
+.publish-date {
+  color: #bdbdbd;
+}
+
+.date {
+  text-decoration: underline;
+}
+
+.main-text__link-grey {
+  color: #bdbdbd;
+}
+
+.main-text__link-blue {
+  color: #0277bd;
 }
 
 .ad-photo {
