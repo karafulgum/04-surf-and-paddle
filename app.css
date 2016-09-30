@@ -22,8 +22,8 @@ ul {
 }
 
 .top-nav {
-  position: relative;
-  bottom: 1.5rem;
+  /*position: relative;
+  bottom: 1.5rem;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,26 +100,23 @@ ul {
 
 .main__container {
   max-width: 50rem;
-  min-width: 30rem;
   margin: 4rem auto 0;
 }
 
 .main__content {
-  position: relative;
-  bottom: 2rem;
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .left-article {
-  /*position: relative;
-  bottom: 3rem;*/
-  margin-right: 1.5rem;
+  margin: 1.5rem;
+  width: calc(70% - 1.5rem - 1.5rem);
+  min-width: 18rem;
 }
 
-.article-info {
-  /*position: relative;
-  bottom: 3rem;*/
+.right-article {
+  margin: 1.5rem;
+  width: calc(30% - 1.5rem - 1.5rem);
 }
 
 .article-heading {
@@ -319,8 +316,8 @@ ul {
 .article-2-text {
     color: #bdbdbd;
     font-size: 0.8rem;
-    position: relative;
-    bottom: 0.5rem;
+    /*position: relative;
+    bottom: 0.5rem;*/
 }
 
 .footer__heading {
