@@ -22,12 +22,9 @@ ul {
 }
 
 .top-nav {
-  /*position: relative;
-  bottom: 1.5rem;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: auto;
   color: #212121;
 }
 
@@ -372,10 +369,6 @@ ul {
   color: #e0e0e0;
 }
 
-.bottom-nav p {
-  font-size: 1rem;
-}
-
 .bottom-nav__logo img {
   border-radius: 50%;
   height: 2rem;
@@ -406,4 +399,8 @@ ul {
 
 .bottom-nav__item a:hover{
   color: black;
+}
+
+.nav__divider {
+  font-size: 0.5rem;
 }
