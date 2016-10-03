@@ -336,6 +336,7 @@ img {
   position: relative;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
  .footer-img {
@@ -345,12 +346,12 @@ img {
 
 .popular-post {
   width: calc(100% / 4);
-  margin: 0;
+  min-width: 10rem;
+  position: relative;
 }
 
 .image {
   width: 100%;
-  margin: 0;
 }
 
 .titles-names {
@@ -361,7 +362,7 @@ img {
   font-size: 1.5rem;
   text-transform: uppercase;
   position: absolute;
-  top: 74%;
+  bottom: -1.5rem;
   padding-left: 0.5rem;
 }
 
@@ -369,6 +370,7 @@ img {
 .bottom-nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding: 1.5rem;
   background-color: #073573;
