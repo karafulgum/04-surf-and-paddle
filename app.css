@@ -15,10 +15,15 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .hero {
   padding: 1rem 2rem;
   background: url('images/water.jpeg') no-repeat center center fixed;
   background-size: cover;
+  overflow: auto;
 }
 
 .top-nav {
@@ -96,17 +101,17 @@ ul {
 }
 
 .main__container {
-  max-width: 50rem;
+  max-width: 70%;
   margin: 4rem auto 0;
 }
 
 .main__content {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .left-article {
-  flex-grow: 1;
   margin: 1.5rem;
   width: calc(70% - 1.5rem - 1.5rem);
   min-width: 18rem;
