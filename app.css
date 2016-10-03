@@ -183,13 +183,13 @@ ul {
 .btn {
   display: flex;
   justify-content: space-between;
-  width: 25rem;
+  width: 22rem;
 }
 
 .btn-1 {
   width: 7.5rem;
   font-size: 0.7rem;
-  padding: 0.2rem 0;
+  padding: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -198,21 +198,23 @@ ul {
   border: none;
 }
 
+.btn-image1 {
+    padding: 0.3rem;
+    background-color:#424242;
+}
+
 .fa-comment {
   color: white;
-  background-color:#424242;
-  margin-right: 0.2rem;
-  padding: 0.2rem;
 }
 
 .btn-1 p {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .btn-2 {
-  width: 7.5rem;
+  width: 6rem;
   font-size: 0.7rem;
-  padding: 0.2rem 0;
+  padding: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -223,19 +225,16 @@ ul {
 
 .fa-cloud-upload {
   color: white;
-  background-color:#424242;
-  margin-right: 0.2rem;
-  padding: 0.2rem;
 }
 
 .btn-2 p {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .btn-3 {
-  width: 7.5rem;
+  width: 7rem;
   font-size: 0.7rem;
-  padding: 0.2rem 0;
+  padding: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -246,15 +245,16 @@ ul {
 
 .fa-share-square-o {
   color: white;
-  background-color: #111852;
-  margin-right: 0.2rem;
-  padding: 0.2rem;
 }
 
 .btn-3 p {
-  margin: 0;
+  margin: 0 auto;
 }
 
+.btn-image2 {
+    padding: 0.3rem;
+    background-color: #111852;
+}
 
 .author-profile img {
   display: flex;
