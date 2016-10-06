@@ -26,6 +26,11 @@ img {
   overflow: auto;
 }
 
+.hero-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -100,7 +105,7 @@ img {
   font-size: 1rem;
 }
 
-.main__container {
+.container {
   max-width: 70%;
   margin: 4rem auto 0;
 }
@@ -370,6 +375,15 @@ img {
   position: absolute;
   bottom: -1.5rem;
   padding-left: 0.5rem;
+}
+
+.footer-nav {
+  overflow: auto;
+}
+
+.footer-container {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .bottom-nav {
