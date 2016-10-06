@@ -377,7 +377,7 @@ img {
   padding-left: 0.5rem;
 }
 
-.footer-nav {
+.footer {
   overflow: auto;
 }
 
@@ -391,7 +391,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 12.3rem;
   background-color: #073573;
   color: #e0e0e0;
 }
