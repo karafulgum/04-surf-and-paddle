@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  /*padding: 1rem;
+  border: 0.5rem pink solid;
+  margin: 0.5rem;*/
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  padding: 1rem 2rem;
+  background: url('images/water.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: auto;
+}
+
+.hero-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #212121;
+}
+
+.top-nav p {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.top-nav a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-nav img {
+  border-radius: 50%;
+  height: 2em;
+  vertical-align: middle;
+}
+
+.top-nav__logo, .top-nav__logo p {
+  margin: 0;
+}
+
+.top-nav__links {
+  display: flex;
+  margin: 0 -0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+}
+
+.top-nav__item {
+  margin: 0 0.5rem;
+}
+
+.top-nav__item:hover{
+  color: white;
+}
+
+.fa-search {
+  position: relative;
+  left: 0.2rem;
+  bottom: 0.2rem;
+}
+
+.hero__title-container {
+  margin: 4rem auto;
+}
+
+.titles {
+  text-align: center;
+  color: #e3e3e3;
+}
+
+.hero__title {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.hero__subtitle {
+  position: relative;
+  bottom: 4.5rem;
+  left: 3rem;
+
+  color: #212121;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 70%;
+  margin: 4rem auto 0;
+}
+
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.left-article {
+  margin: 1.5rem;
+  width: calc(70% - 1.5rem - 1.5rem);
+  min-width: 18rem;
+}
+
+.right-article {
+  margin: 1.5rem;
+  min-width: 10rem;
+  width: calc(30% - 1.5rem - 1.5rem);
+}
+
+.article-heading {
+  color: #073573;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.article-heading p {
+  margin: 0;
+}
+
+.author-info img {
+  border-radius: 50%;
+  height: 1.5em;
+  vertical-align: middle;
+}
+
+.author-info p {
+  margin-left: 0.2rem;
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.post-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.publish-date {
+  display: flex;
+  color: #bdbdbd;
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.date {
+  margin-left: 0.2rem;
+  text-decoration: underline;
+}
+
+.main-text__link-grey {
+  color: #bdbdbd;
+}
+
+.main-text__link-blue {
+  color: #0277bd;
+}
+
+.quote {
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left: 1px solid #bdbdbd;
+  padding: 0.75rem 0.5rem;
+  margin: 0 0.3rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 22rem;
+}
+
+.btn-1 {
+  width: 7.5rem;
+  font-size: 0.7rem;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-color: #e0e0e0;
+  border: none;
+}
+
+.btn-image1 {
+    padding: 0.3rem;
+    background-color:#424242;
+}
+
+.fa-comment {
+  color: white;
+}
+
+.btn-1 p {
+  margin: 0 auto;
+}
+
+.btn-2 {
+  width: 6rem;
+  font-size: 0.7rem;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-color: #e0e0e0;
+  border: none;
+}
+
+.fa-cloud-upload {
+  color: white;
+}
+
+.btn-2 p {
+  margin: 0 auto;
+}
+
+.btn-3 {
+  width: 7rem;
+  font-size: 0.7rem;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-color: #2196f3;
+  border: none;
+}
+
+.fa-share-square-o {
+  color: white;
+}
+
+.btn-3 p {
+  margin: 0 auto;
+}
+
+.btn-image2 {
+    padding: 0.3rem;
+    background-color: #111852;
+}
+
+.author-profile img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  height: 3.5em;
+}
+
+.author-profile p {
+  margin: 0;
+}
+
+.author-name {
+  color: #517ee3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 1rem;
+  width: 8rem;
+  margin: 1rem auto;
+}
+
+.socials__item a {
+  font-size: 0.6rem;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-photo {
+  max-width: 100%;
+  height: 15rem;
+}
+
+.ad-link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+  color: #bdbdbd;
+}
+
+.article-2 {
+  margin-top: 2rem;
+}
+
+.article-2-heading, .article-2-heading p {
+    color: #517ee3;
+    font-family: "Fjalla One", sans-serif;
+    text-transform: uppercase;
+}
+
+.article-2-text {
+    color: #bdbdbd;
+    font-size: 0.8rem;
+}
+
+.divider {
+  width: 100%;
+}
+
+.footer__heading {
+  text-align: center;
+  color: #073573;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.other-posts__images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ .footer-img {
+  width: 100%;
+  display: block;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.popular-post {
+  width: calc(100% / 4);
+  min-width: 10rem;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+}
+
+.titles-names {
+  display: flex;
+  justify-content: flex-start;
+  color: #e0e0e0;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -1.5rem;
+  padding-left: 0.5rem;
+}
+
+.bottom-nav {
+    padding: 1.5rem;
+    background-color: #073573;
+    color: #e0e0e0;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.footer__logo img {
+  border-radius: 50%;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.footer__logo {
+  margin: 0;
+}
+
+.footer__logo p {
+  font-size: 0.8rem;
+}
+
+.footer__links {
+  display: flex;
+  margin: 0 -0.5rem;
+  padding-right: 0.8rem;
+  align-items: baseline;
+}
+
+.footer__links--item a {
+  margin: 0 0.5rem;
+  color: #e0e0e0;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.footer__links--item a:hover{
+  color: black;
+}
+
+.footer__divider {
+  font-size: 0.5rem;
+}
